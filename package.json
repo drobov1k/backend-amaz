@@ -1,0 +1,38 @@
+{
+  "name": "backend-amaz",
+  "version": "1.0.0",
+  "description": "e-commerce backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecomerce",
+    "mern",
+    "ackend",
+    "api"
+  ],
+  "author": "Euheniy Dubovik",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.6",
+    "multer": "^1.4.2",
+    "shortid": "^2.2.15",
+    "slugify": "^1.4.5",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "nodemon": "^2.0.4"
+  }
+}
